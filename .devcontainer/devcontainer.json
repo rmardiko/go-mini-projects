@@ -1,0 +1,24 @@
+{
+    // Name this configuration
+    "name": "Auth API (Mini Project)",
+    // Use the base codespace image
+    "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  
+    "remoteUser": "codespace",
+    "overrideCommand": false,
+
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "golang.go"
+        ]
+      },
+      "codespaces": {
+        "openFiles": [
+          //"codespace.md"
+        ]
+      }
+    },
+
+    //"postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+}
